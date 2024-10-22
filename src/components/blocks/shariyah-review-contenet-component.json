@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_shariyah_review_contenet_components",
+  "info": {
+    "displayName": "shariyah-review-contenet-component",
+    "icon": "eye"
+  },
+  "options": {},
+  "attributes": {
+    "Content_Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.content-card"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.button-s"
+    },
+    "Card_Pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.security-card"
+    }
+  }
+}

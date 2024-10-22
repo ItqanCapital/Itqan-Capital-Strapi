@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_content_tabs",
+  "info": {
+    "displayName": "contentTabs",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.content-card"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.tab"
+    }
+  }
+}

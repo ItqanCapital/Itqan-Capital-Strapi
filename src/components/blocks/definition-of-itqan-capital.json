@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_definition_of_itqan_capitals",
+  "info": {
+    "displayName": "Definition_of_Itqan_Capital",
+    "icon": "key",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.definition-of-itqan-capital-points"
+    }
+  }
+}

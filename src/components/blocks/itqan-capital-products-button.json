@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_itqan_capital_products_buttons",
+  "info": {
+    "displayName": "Itqan_capital_products_button",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "button_title": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    },
+    "button_title_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

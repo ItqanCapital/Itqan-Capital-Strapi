@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_test_links",
+  "info": {
+    "displayName": "link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link_title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

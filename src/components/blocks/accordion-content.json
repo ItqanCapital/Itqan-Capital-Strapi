@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_accordion_contents",
+  "info": {
+    "displayName": "ContentAccordion",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.content-card"
+    },
+    "accordion_link": {
+      "displayName": "AccordionV2",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.accordion-v2"
+    }
+  }
+}

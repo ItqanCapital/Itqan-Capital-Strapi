@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_blocks_security_cards",
+  "info": {
+    "displayName": "SecurityCard",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hover_title": {
+      "type": "string"
+    },
+    "hover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pdf_link": {
+      "type": "text"
+    }
+  }
+}

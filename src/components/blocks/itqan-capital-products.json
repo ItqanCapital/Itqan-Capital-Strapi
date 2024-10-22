@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_itqan_capital_products",
+  "info": {
+    "displayName": "Itqan_capital_products",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Itqan_capital_products_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.itqan-capital-products-button"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

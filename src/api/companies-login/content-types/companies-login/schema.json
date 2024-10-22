@@ -1,0 +1,262 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies_logins",
+  "info": {
+    "singularName": "companies-login",
+    "pluralName": "companies-logins",
+    "displayName": "companies-login",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "investmentKnowledgeDescription": {
+      "type": "string"
+    },
+    "investmentYears": {
+      "type": "string"
+    },
+    "previousInvestments": {
+      "type": "string"
+    },
+    "professionalCertificates": {
+      "type": "string"
+    },
+    "loanToInvestedMoneyRatio": {
+      "type": "string"
+    },
+    "marginTransactions": {
+      "type": "string"
+    },
+    "securitiesTransactionsOutsideKingdom": {
+      "type": "string"
+    },
+    "countriesForSecuritiesTransactions": {
+      "type": "string"
+    },
+    "riskAppetite": {
+      "type": "string"
+    },
+    "capitalProtection": {
+      "type": "string"
+    },
+    "incomeGeneration": {
+      "type": "string"
+    },
+    "balanced": {
+      "type": "string"
+    },
+    "capitalGrowth": {
+      "type": "string"
+    },
+    "projectFinancing": {
+      "type": "string"
+    },
+    "assetPurchase": {
+      "type": "string"
+    },
+    "investmentGoalsOther": {
+      "type": "string"
+    },
+    "saudiAssets": {
+      "type": "string"
+    },
+    "foreignCurrencyAssets": {
+      "type": "string"
+    },
+    "clientCurrentWalletdepositsMurabah": {
+      "type": "string"
+    },
+    "idealportfoliofortheclientdepositsMurabah": {
+      "type": "string"
+    },
+    "clientCurrentWalletdebitInstruments": {
+      "type": "string"
+    },
+    "idealportfoliofortheclientdebitInstruments": {
+      "type": "string"
+    },
+    "clientCurrentWalletequity": {
+      "type": "string"
+    },
+    "idealportfoliofortheclientequity": {
+      "type": "string"
+    },
+    "clientCurrentWalletinvestmentFund": {
+      "type": "string"
+    },
+    "idealportfoliofortheclientinvestmentFund": {
+      "type": "string"
+    },
+    "clientCurrentWalletrealEstate": {
+      "type": "string"
+    },
+    "idealportfoliofortheclientrealEstate": {
+      "type": "string"
+    },
+    "clientCurrentWalletderivativesContracts": {
+      "type": "string"
+    },
+    "idealportfoliofortheclientderivativesContracts": {
+      "type": "string"
+    },
+    "clientCurrentWalletalternativeInvestments": {
+      "type": "string"
+    },
+    "idealportfoliofortheclientalternativeInvestments": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "custodianName": {
+      "type": "string"
+    },
+    "custodianAddress": {
+      "type": "string"
+    },
+    "clientCertificates": {
+      "type": "string"
+    },
+    "custodianCertificates": {
+      "type": "string"
+    },
+    "OtherPartiesCertificates": {
+      "type": "string"
+    },
+    "clientDividends": {
+      "type": "string"
+    },
+    "custodianDividends": {
+      "type": "string"
+    },
+    "OtherPartiesDividends": {
+      "type": "string"
+    },
+    "clientSalesProceed": {
+      "type": "string"
+    },
+    "custodianSalesProceed": {
+      "type": "string"
+    },
+    "OtherPartiesSalesProceed": {
+      "type": "string"
+    },
+    "clientName": {
+      "type": "string"
+    },
+    "retirementSavings": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "investmentDesire": {
+      "type": "string"
+    },
+    "legalEntity": {
+      "type": "string"
+    },
+    "unifiedNumber": {
+      "type": "string"
+    },
+    "commercialRegistrationNumber": {
+      "type": "string"
+    },
+    "establishmentDate": {
+      "type": "string"
+    },
+    "registeredAddress": {
+      "type": "string"
+    },
+    "buildingNumber": {
+      "type": "string"
+    },
+    "streetName": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "additionalNumber": {
+      "type": "string"
+    },
+    "registrationCountry": {
+      "type": "string"
+    },
+    "businessActivityCountry": {
+      "type": "string"
+    },
+    "numberOfEmployees": {
+      "type": "string"
+    },
+    "paidCapital": {
+      "type": "string"
+    },
+    "annualBusinessVolume": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "businessPhone": {
+      "type": "string"
+    },
+    "correspondenceAddress": {
+      "type": "string"
+    },
+    "accountOwnerName": {
+      "type": "string"
+    },
+    "authorized_people": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::authorized-person.authorized-person",
+      "mappedBy": "companies_login"
+    },
+    "Correspondence": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "mainActivity": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "bankName": {
+      "type": "string"
+    },
+    "mainAccount": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "general_informations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::general-information.general-information",
+      "mappedBy": "companies_login"
+    },
+    "isPubliclyListed": {
+      "type": "string"
+    },
+    "otherFinancialInfo": {
+      "type": "text"
+    }
+  }
+}

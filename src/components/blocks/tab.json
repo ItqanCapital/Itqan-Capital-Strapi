@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_tabs",
+  "info": {
+    "displayName": "tab",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "richtext"
+    }
+  }
+}

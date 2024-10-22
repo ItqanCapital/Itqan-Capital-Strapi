@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_test_accordions",
+  "info": {
+    "displayName": "accordion",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "accordion_link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.link"
+    }
+  }
+}

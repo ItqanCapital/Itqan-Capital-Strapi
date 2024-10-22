@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_subtitles",
+  "info": {
+    "displayName": "subtitle",
+    "icon": "pencil",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_value_spotlight_cards",
+  "info": {
+    "displayName": "Value_Spotlight_Card",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

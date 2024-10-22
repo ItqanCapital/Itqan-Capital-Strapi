@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_company_values_spotlights",
+  "info": {
+    "displayName": "Company_Values_Spotlight",
+    "icon": "chartPie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "single_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.value-spotlight-card"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_fund_performances",
+  "info": {
+    "displayName": "fund_performance",
+    "icon": "chartPie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "annual_performance_average": {
+      "type": "string"
+    },
+    "evaluation_days": {
+      "type": "string"
+    },
+    "evaluation_date": {
+      "type": "string"
+    },
+    "fund_name": {
+      "type": "string"
+    },
+    "current_unit_price": {
+      "type": "string"
+    }
+  }
+}

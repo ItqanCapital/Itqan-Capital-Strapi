@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authorized_people",
+  "info": {
+    "singularName": "authorized-person",
+    "pluralName": "authorized-people",
+    "displayName": "authorizedPerson"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "idType": {
+      "type": "string"
+    },
+    "idNumber": {
+      "type": "string"
+    },
+    "placeOfIssue": {
+      "type": "string"
+    },
+    "issueDate": {
+      "type": "string"
+    },
+    "expiryDate": {
+      "type": "string"
+    },
+    "companies_login": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::companies-login.companies-login",
+      "inversedBy": "authorized_people"
+    }
+  }
+}

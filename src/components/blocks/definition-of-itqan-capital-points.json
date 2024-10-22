@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_definition_of_itqan_capital_points",
+  "info": {
+    "displayName": "Definition_of_Itqan_Capital_points"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "subtitle": {
+      "type": "blocks"
+    }
+  }
+}

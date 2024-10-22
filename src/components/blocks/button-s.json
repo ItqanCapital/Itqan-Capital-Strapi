@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_button_s",
+  "info": {
+    "displayName": "button`s",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "button_title": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "text"
+    }
+  }
+}

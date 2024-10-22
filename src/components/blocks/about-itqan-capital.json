@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_about_itqan_capitals",
+  "info": {
+    "displayName": "About_Itqan_Capital",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "richtext"
+    }
+  }
+}

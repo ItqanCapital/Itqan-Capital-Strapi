@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_tree_drawing_of_the_organizational_structures",
+  "info": {
+    "displayName": "Tree_drawing_of_the_organizational_structure"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

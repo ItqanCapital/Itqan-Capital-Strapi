@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_accordion_v2s",
+  "info": {
+    "displayName": "AccordionV2",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.link"
+    }
+  }
+}

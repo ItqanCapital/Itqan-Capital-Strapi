@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_itqan_capital_members",
+  "info": {
+    "displayName": "Itqan_Capital_members",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Board_of_Directors_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.identification-card"
+    }
+  }
+}

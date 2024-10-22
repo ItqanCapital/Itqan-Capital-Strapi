@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_hero_section_home_pages",
+  "info": {
+    "displayName": "Hero_section_Home_page",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hero_itqan_title_span": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

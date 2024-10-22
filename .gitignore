@@ -36,29 +36,6 @@ $RECYCLE.BIN/
 # Packages
 ############################
 
-*.7z
-*.csv
-*.dat
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.seed
-*.so
-*.swo
-*.swp
-*.swn
-*.swm
-*.out
-*.pid
 
 
 ############################
@@ -67,16 +44,12 @@ $RECYCLE.BIN/
 
 
 
+
 ############################
 # Misc.
 ############################
 
-*#
-ssl
-.idea
-nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+
 
 ############################
 # Node.js

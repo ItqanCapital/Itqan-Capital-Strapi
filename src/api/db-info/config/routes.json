@@ -1,0 +1,10 @@
+{
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/db-info",
+        "handler": "db-info.getDbPath"
+      }
+    ]
+  }
+  

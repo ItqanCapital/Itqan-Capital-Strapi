@@ -7,7 +7,6 @@
 # Linux
 ############################
 
-*~
 
 
 ############################
@@ -38,28 +37,28 @@
 # Node.js
 ############################
 
-lib-cov
-lcov.info
-pids
-logs
-results
+# lib-cov
+# lcov.info
+# pids
+# logs
+# results
 node_modules
-.node_history
+# .node_history
 
 ############################
 # Tests
 ############################
 
-coverage
+# coverage
 
 ############################
 # Strapi
 ############################
 
-.env
-license.txt
-exports
-.strapi
-dist
-build
-.strapi-updater.json
+# .env
+# license.txt
+# exports
+# .strapi
+# dist
+# build
+# .strapi-updater.json
